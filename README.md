@@ -1,2 +1,6 @@
 # myWebsite
-A simple website to showcase my skillset and works.
+Hello world! 
+
+This will be a simple portfolio piece / landing page. 
+
+Please be patient as I finish setting everything up. 
