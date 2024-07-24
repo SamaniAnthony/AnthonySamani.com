@@ -1,6 +1,10 @@
-# myWebsite
-Hello world! 
+# PersonalWebsite
+A personal website.
 
-This will be a simple portfolio piece / landing page. 
+Work Log
+Started redesigning from my Figma files. Will link cpanel to github once I have a starting site that I can utilize. 
 
-Please be patient as I finish setting everything up. 
+Wednesday July 24, 2024
+updated index.html 
+Working on hero spacing
+navbar finalaziation
