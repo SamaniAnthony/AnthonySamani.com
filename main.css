@@ -1,0 +1,63 @@
+
+:root {
+    --primary-font:"Montserrat", sans-serif;
+    --secondary-font:"Outfit", sans-serif;
+    --primary-color: black;
+    --secondary-color: limegreen;
+    --jumbo-font: 7em; /*primarily used on hero-sec main display. */
+}
+
+body {
+    font-family: var(--primary-font);
+}
+.navbar {
+    background-color: black;
+}
+.main-hero {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    padding-left: 100px;
+}
+#hero-intro {
+    font-family: var(--secondary-font);
+    font-weight: 100;
+    font-size: 2em;
+}
+.typing-text {
+    font-size: 10em;
+    font-weight: 800;
+    margin: 0;
+    padding: 0; 
+    max-width: 80%;
+}
+
+#changingText {
+    color: gray;  
+}
+.changingLead {
+    font-size: 2.2em;
+}
+#portSection {
+    position: relative;
+    color: white; 
+}
+.cta-btn {
+    border-radius: 5px;
+    font-weight:bolder; 
+    padding: 10px; 
+    padding-left: 32px; 
+    padding-right: 32px;
+}
+.sec-header {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 3em;
+}
+.exp-containers {
+    text-align: center;
+
+}
+.about-sec-cont {
+    text-align: center;
+}

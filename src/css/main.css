@@ -3,7 +3,7 @@
     --primary-font:"Montserrat", sans-serif;
     --secondary-font:"Outfit", sans-serif;
     --primary-color: black;
-    --secondary-color: limegreen;
+    --secondary-color: rgb(197, 5, 226);
     --jumbo-font: 7em; /*primarily used on hero-sec main display. */
 }
 
@@ -28,4 +28,25 @@ body {
 .carousel-inner {
     border-radius: 10px;
 }
-
+#changingText {
+    color: var(--secondary-color); 
+}
+.changingLead {
+    font-size: 4em;
+    font-family: var(--primary-font);
+}
+.page-header-h {
+    font-size: 4em;
+    font-family: var(--secondary-font);
+    font-weight: bold;
+}
+.jumbotron-fluid {
+    border-radius:10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    min-height: 80vh;
+    color: white;
+    background-image: url("../imgs/Deploy.jpg");
+    background-size: cover;
+    min-width: 100%;
+}

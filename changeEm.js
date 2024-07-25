@@ -4,7 +4,7 @@
 		return app.init();
 	});
 	app = {
-		text: "Web Designer & FullStack Web Dev",
+		text: "Design, Develop, Deploy.",
 		index: 0,
 		chars: 0,
 		speed: 100,
@@ -25,7 +25,7 @@
 	};
 }.call(this));
 
-var languages = ["elegant", "professional","simple", "essential"];
+var languages = ["simple", "professional", "essential"];
 var counter = 0;
 var  x = document.getElementById("changingText");
 setInterval(change, 1400);
