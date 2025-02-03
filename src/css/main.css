@@ -1,52 +1,18 @@
-
 :root {
     --primary-font:"Montserrat", sans-serif;
     --secondary-font:"Outfit", sans-serif;
     --primary-color: black;
     --secondary-color: rgb(197, 5, 226);
-    --jumbo-font: 7em; /*primarily used on hero-sec main display. */
+    --jumbo-font:4.5em; /*primarily used on hero-sec main display. */
 }
 
-body {
-    font-family: var(--primary-font);
-}
-.main-hero {
-    height: 85vh;
-}
-#hero-intro {
-    font-family: var(--secondary-font);
-    font-weight: 100;
-    font-size: 2em;
-}
-.typing-text {
-    font-size: 5em;
-    font-weight: 800;
-    margin: 0;
-    padding: 0; 
-    max-width: 80%;
-}
-.carousel-inner {
-    border-radius: 10px;
-}
-#changingText {
-    color: var(--secondary-color); 
-}
-.changingLead {
-    font-size: 4em;
-    font-family: var(--primary-font);
-}
-.page-header-h {
-    font-size: 4em;
-    font-family: var(--secondary-font);
-    font-weight: bold;
-}
-.jumbotron-fluid {
-    border-radius:10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    min-height: 80vh;
-    color: white;
-    background-image: url("../imgs/Deploy.jpg");
-    background-size: cover;
-    min-width: 100%;
+.hero {
+    background: #f0f0f0; /* You can change the background color or add an image */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -50px;
 }

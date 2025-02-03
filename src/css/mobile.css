@@ -15,36 +15,3 @@
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) { ... }*/
-
-@media (max-width: 992px) { 
-    .main-hero {
-        max-height: 80vh;
-    }
-    .typing-text {
-        font-size: 4em;
-        max-width: 90%;
-    }
-
- }
-
- @media (max-width: 768px) { 
-    .main-hero {
-        max-height: 70vh;
-    }
-    .typing-text {
-        font-size: 2.5em;
-    }
- }
-
- @media (max-width: 768px) { 
-    .main-hero {
-        max-height: 55vh;
-    }
-    .typing-text {
-        font-size: 2.5em;
-    }
-    #hero-intro {
-        font-size: 1.3em;
-    
-    }
- }
