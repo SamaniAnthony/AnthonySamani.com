@@ -3,7 +3,16 @@
     --secondary-font:"Outfit", sans-serif;
     --primary-color: black;
     --secondary-color: rgb(197, 5, 226);
-    --jumbo-font:4.5em; /*primarily used on hero-sec main display. */
+    --jumbo-font:2.4em; /*primarily used on hero-sec main display. */
+}
+body{
+    font-family: var(--primary-font);
+}
+h1, h2, h3, h4, h5, a {
+    font-family: var(--secondary-font);
+}
+h1  {
+    font-size: var(--jumbo-font);
 }
 
 .hero {
@@ -15,4 +24,41 @@
     justify-content: center;
     text-align: center;
     margin-top: -50px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
