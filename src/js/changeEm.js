@@ -1,38 +1,22 @@
-(function(){
-	var app;
-	$(document).ready(function(){
-		return app.init();
-	});
-	app = {
-		text: "Web Designer & FullStack Web Dev",
-		index: 0,
-		chars: 0,
-		speed: 100,
-		container: '.typing-text .typing-content',
-		init: function(){
-			this.chars = this.text.length;
-			return this.write();
-		},
-		write: function(){
-			$(this.container).append(this.text[this.index]);
-			if(this.index<this.chars){
-				this.index++;
-				return window.setTimeout(function(){
-					return app.write();
-				}, this.speed);
-			}
-		}
-	};
-}.call(this));
+// Get the modal
+var modal = document.getElementById("emailModal");
 
-var languages = ["elegant", "professional","simple", "essential"];
-var counter = 0;
-var  x = document.getElementById("changingText");
-setInterval(change, 1400);
-function change() {
-  x.innerHTML = languages[counter];
-  counter++;
-  if(counter >= languages.length) {
-    counter = 0;
-  }
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// Display the modal after 5 seconds
+setTimeout(function() {
+    modal.style.display = "block";
+}, 5000);
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
